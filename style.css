@@ -1,0 +1,54 @@
+body {
+    background-color: #05c46b;
+    font-family: Verdana;
+}
+
+div{
+    margin: 25px;
+    background-color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+label{
+    text-align: left;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+input,textarea,select{
+    width: 95%;
+}
+input{
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+select{
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+button{
+    width: 95%;
+    background-color: #05c46b;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+.text{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.dropdown-section, .radio-section, .checkbox-section,.textarea-section{
+    margin-top: 20px;
+}
